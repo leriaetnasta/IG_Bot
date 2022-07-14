@@ -1,0 +1,22 @@
+2022-07-14 19:09:01,351 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2022-07-14 19:09:01,351 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /Users/loubna/IG_Bot/venv/lib/python3.7/site-packages/instabot/bot/bot.py
+2022-07-14 19:09:01,351 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2022-07-14 19:09:01,669 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [429]>
+2022-07-14 19:09:01,669 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail"}'
+2022-07-14 19:09:01,669 - instabot version: 0.117.0 (api) - ERROR - Request returns 429 error!
+2022-07-14 19:09:01,669 - instabot version: 0.117.0 (api) - WARNING - That means 'too many requests'. I'll go to sleep for 5 minutes.
+2022-07-14 19:14:37,494 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [400]>
+2022-07-14 19:14:37,496 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"","status":"fail"}'
+2022-07-14 19:14:37,496 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-07-14 19:14:37,496 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: 
+2022-07-14 19:14:37,496 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: {}
+2022-07-14 19:14:37,866 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2022-07-14 19:14:38,123 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2022-07-14 19:14:38,396 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2022-07-14 19:14:39,248 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2022-07-14 19:14:39,249 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"Please wait a few minutes before you try again.","status":"fail","error_type":"rate_limit_error"}'
+2022-07-14 19:14:39,249 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2022-07-14 19:14:39,249 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: Please wait a few minutes before you try again.
+2022-07-14 19:14:39,249 - instabot version: 0.117.0 (api) - INFO - Error type: rate_limit_error
+2022-07-14 19:14:39,249 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2022-07-14 19:14:39,250 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
